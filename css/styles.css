@@ -1013,6 +1013,39 @@ img {
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
+  /* FOOTER SECTION */
+  .container.footer-container {
+    padding-left: 92px;
+  }
+  .footer-logo {
+    margin: 0;
+  }
+
+  .footer-left {
+    margin: 0;
+    margin-right: 24px;
+  }
+
+  .footer-text {
+    max-width: 264px;
+    margin: 0;
+  }
+
+  .footer-middle {
+    margin: 0;
+  }
+
+  .footer-title-links {
+    margin: 0;
+  }
+
+  .footer-subscribe-title {
+    margin: 72px 0 16px;
+  }
+
+  .footer-input-wrapper {
+    gap: 24px;
+  }
 }
 
 /* DESKTOP MEDIA */
@@ -1031,7 +1064,10 @@ img {
 
   .contacts-list {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    gap: 40px;
+    padding: 24px 0;
   }
 
   .header-logo {
@@ -1111,5 +1147,29 @@ img {
 
   .portfolio-item {
     width: calc((100% - 48px) / 3);
+  }
+  /* FOOTER SECTION */
+  .container.footer-container {
+    padding: 0 15px;
+  }
+
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-left {
+    margin-right: 120px;
+  }
+
+  .footer-middle {
+    margin-right: auto;
+  }
+
+  .footer-subscribe-title {
+    margin-bottom: 16px;
+  }
+
+  .footer-input-wrapper {
+    gap: 24px;
   }
 }
