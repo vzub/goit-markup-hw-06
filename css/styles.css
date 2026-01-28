@@ -1184,6 +1184,21 @@ img {
   .footer-input-wrapper {
     gap: 24px;
   }
+
+  /* MODAL BACKDROP */
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 20px;
+  }
+
+  .modal-input-wrapper {
+    width: 100%;
+  }
+
+  .modal-input-textarea {
+    font-size: 14px;
+  }
 }
 
 /* DESKTOP MEDIA */
